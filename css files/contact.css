@@ -1,0 +1,110 @@
+.body_contact{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    background:#957e22d5;
+  }
+.contactNdelivery{
+    background-color: #202020c3;
+    padding: 5px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    margin: 5px;
+}
+.contact_wrapper{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.phone{
+    margin: 5px 5px 0px 5px;
+    padding: 50px;
+    background-color:aliceblue;
+    font-size: 20px;
+    display: flex;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+    color: #fed118;
+    background-color: #181818;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.phoneNicon{
+    display: inline;
+}
+.copy_icon{
+    border: solid 2px #fed01860;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #fed118;
+    margin-left: 10px;
+}
+.copy_icon:hover{
+    color: #7f6913;
+}
+.icon{
+    padding: 6px 15px 6px 15px;
+    background-color: #5cdb5c81;
+    border-radius: 5px;
+}
+.the_number{
+    display: inline;
+    background-color:  #fed0180c;
+    padding: 3px 10px 3px 10px;
+    border-radius: 5px;
+}
+.free_delivry_wrapper{ 
+    padding: 30px;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    background-color: #181818;
+    margin: 5px 5px 0px 5px;
+
+ }
+ .delivery_icon{ 
+    width: 10%;
+    height: auto;
+    object-fit: contain;
+}
+.free_delivery_para{
+    display: inline;
+    color: #fed118;
+    width: 60%;
+}
+.phone_btn{
+    display: none;
+}
+
+@media (max-width:992px) {
+    .contact_wrapper{
+        display: block;
+    }
+    .phone_btn{
+        display: block;
+    }
+    .delivery_icon{ 
+        width: 40%;
+    }
+    .free_delivry_wrapper{ 
+        font-size: 18px;
+     }
+     .phone{
+        padding: 50px 40px 50px 40px;
+    }
+}
+@media (max-width:392px) {
+    .delivery_icon{ 
+        width: 40%;
+    }
+    .free_delivry_wrapper{ 
+        font-size: 15px;
+     }
+    
+}

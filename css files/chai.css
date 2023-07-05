@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;800&display=swap');
+.body_web{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    background:#957e22d5;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+ .logo{
+  width:100%; 
+ }
+ .home_logo{
+  display: block;
+ }
+  .menu{
+    width:100%; 
+  }
+  .imagebox{
+    width: 100%;
+    border-radius: 10px;
+  }
+  .menu_page{
+    padding: 2px 3px 0px 3px;
+  }
+  .header {
+    background-color: #181818;
+    display: flex;
+    color: #fed118;
+    padding: 10px 25px 10px 25px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .chaistation_header h1 a{
+    text-decoration: none;
+    display: inline;
+  }
+  .chaistation_header{
+    padding-top: 6px;
+    max-width: 35%; 
+    }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  ul{
+    display: inline;
+  }
+  nav ul li {
+    display: inline;
+    text-align: center;
+    
+  }
+  .navbar_option{
+    background-color: #fed118;
+    padding: 15px 30px 15px 30px;
+    border-radius: 3px;
+    color: #181818;
+    text-decoration: none;
+    font-weight: 800;
+    margin: 15px;
+  }
+  .navbar_option:hover{
+    background-color: #b89d32;
+  }
+  .menu_icon{
+    display: none;
+  }
+  .dropdown_menu{
+    width: 100%;
+    display: none; 
+  }
+  a{
+    text-decoration: none;
+  }
+  .navbar_ul_reactive{
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 400px;
+    background-color: #181818;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  .navbar_ul_reactive a{
+    text-decoration: none;
+    color: #000;
+  }
+  h2 {
+    color: #333;
+  }
+  .social_icons{
+    
+    font-size: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  #insta_icon,#map_icon{
+    color:  #fed118;
+  }
+  .menuwrapper
+  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 4px;
+  }
+ .navbar_ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  @media (max-width: 992px) {
+      nav{
+        display: none;
+      }  
+      header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .menu_icon{
+        display: inline;
+        font-size: 25px;
+      }
+      .menuwrapper{
+        display: block;
+      }
+      .chaistation_header{
+        max-width: 200px; 
+        }
+  }
+  @media (max-width: 1000px){
+    nav{
+      display: none;
+    } 
+    header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .menu_icon{
+      display: inline;
+      font-size: 25px;
+    }
+    .chaistation_header{
+      max-width: 200px; 
+      }
+  }
