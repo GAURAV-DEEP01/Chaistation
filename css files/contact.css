@@ -1,11 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Nunito:wght@600;800&display=swap');
 .body_contact{
     font-family: 'Nunito', sans-serif;
     margin: 0;
     padding: 0;
-    background:#957e22d5;
+    background:#545454e2;
   }
 .contactNdelivery{
-    background-color: #202020c3;
+    background-color: #444444e2;
     padding: 5px;
     padding-bottom: 10px;
     border-radius: 8px;
@@ -53,7 +54,7 @@ a{
 }
 .the_number{
     display: inline;
-    background-color:  #fed0180c;
+    background-color:  #ffffff0d;
     padding: 3px 10px 3px 10px;
     border-radius: 5px;
 }
@@ -76,7 +77,10 @@ a{
 .free_delivery_para{
     display: inline;
     color: #fed118;
-    width: 60%;
+    width: 55%;
+    background-color: #ffffff0d;
+    border-radius: 8px;
+    padding: 8px 8px;
 }
 .phone_btn{
     display: none;
@@ -90,7 +94,7 @@ a{
         display: block;
     }
     .delivery_icon{ 
-        width: 40%;
+        width: 35%;
     }
     .free_delivry_wrapper{ 
         font-size: 18px;
@@ -101,7 +105,7 @@ a{
 }
 @media (max-width:392px) {
     .delivery_icon{ 
-        width: 40%;
+        width: 35%;
     }
     .free_delivry_wrapper{ 
         font-size: 15px;
