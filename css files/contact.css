@@ -61,15 +61,13 @@ a{
 .free_delivry_wrapper{ 
     padding: 30px;
     border-radius: 8px;
-
     display: flex;
     justify-content: space-between;
     font-size: 20px;
     background-color: #181818;
     margin: 5px 5px 0px 5px;
-
  }
- .delivery_icon{ 
+.delivery_icon{ 
     width: 10%;
     height: auto;
     object-fit: contain;
