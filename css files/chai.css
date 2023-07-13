@@ -11,6 +11,9 @@
   button:focus{
     outline: none;
   }
+  /* .menu_num{
+    z-index: 10;
+  } */
  .logo{
   width:100%; 
  }
@@ -70,6 +73,12 @@
   }
   .navbar_option:hover{
     background-color: #b89d32;
+  }
+  .num_col{
+    color:#fed118;
+  }
+  .dropdown_call{
+    background-color: #181818;
   }
   .menu_icon{
     display: none;
