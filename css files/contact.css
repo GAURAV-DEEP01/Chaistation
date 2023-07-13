@@ -12,6 +12,9 @@
     border-radius: 8px;
     margin: 5px;
 }
+.header{
+    align-items: center;
+}
 .contact_wrapper{
     width: 100%;
     display: grid;
@@ -80,7 +83,7 @@ a{
     width: 55%;
     background-color: #ffffff0d;
     border-radius: 8px;
-    padding: 8px 8px;
+    padding: 0px 9px;
 }
 .phone_btn{
     display: none;

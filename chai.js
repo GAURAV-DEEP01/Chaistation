@@ -1,10 +1,13 @@
 let menuIcon = document.querySelector(".menu_icon")
 let dropdownMenu = document.querySelector(".dropdown_menu")
+let dropdownCall = document.querySelector(".dropdown_call")
+let callBtn= document.querySelector(".call_btn")
 let header = document.querySelector("header")
 let copyBtns = document.querySelectorAll(".copy_icon")
 let phoneNum = document.querySelectorAll(".the_number")
 let stars = document.querySelectorAll(".stars i");
 let dropdownMenue_isopen = false;
+let dropdownCall_isopen = false;
 
 //dropdown menu
 menuIcon.addEventListener('click', () => {
@@ -17,9 +20,12 @@ menuIcon.addEventListener('click', () => {
       dropdownMenue_isopen = true;
    }
 })
+//call drop down
+
 document.addEventListener('scroll', () => {
    dropdownMenu.style.display = "none";
    dropdownMenue_isopen = false;
+   dropdownCall_isopen = false;
 })
 
 //copy button
