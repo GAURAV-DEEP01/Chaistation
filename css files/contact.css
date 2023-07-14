@@ -116,6 +116,9 @@ a{
     justify-content: center;
     align-items: center;
 }
+.location_icon{
+    padding-left: 15px;
+}
 .phone_btn{
     display: none;
 }
