@@ -7,7 +7,7 @@
   }
 .contactNdelivery{
     background-color: #444444e2;
-    padding: 5px;
+    padding: 4px;
     padding-bottom: 10px;
     border-radius: 8px;
     margin: 4px;
@@ -63,7 +63,7 @@ a{
     border-radius: 20px;
 }
 .free_delivry_wrapper{ 
-    padding: 30px;
+    padding: 25px;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
@@ -74,7 +74,7 @@ a{
  .about_location{
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+    padding: 25px;
     border-radius: 8px;
     font-size: 20px;
     background-color: #181818;
@@ -149,7 +149,7 @@ a{
         font-size: 18px;
      }
      .phone{
-        padding: 40px 35px 40px 35px;
+        padding: 35px 30px 35px 30px;
     }
 }
 @media (max-width:600px) {
