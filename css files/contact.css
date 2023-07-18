@@ -134,7 +134,6 @@ a{
     flex-direction: column;
     justify-content: space-between;
 }
-
 @media (max-width:992px) {
     .contact_wrapper{
         display: block;
