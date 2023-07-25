@@ -25,7 +25,7 @@
     border-radius: 10px;
   }
   .menu_page{
-    padding: 2px 3px 0px 3px;
+    padding: 2px 2px 0px 2px
   }
   .header {
     background-color: #181818;
@@ -120,7 +120,7 @@
   .menuwrapper
   {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     margin-top: 2px;
   }
  .navbar_ul {
@@ -138,14 +138,14 @@
     border: solid  2px #7c7c7c99;
   }
   .call_menu_wrapper{
-    display: flex;
-    justify-content: space-between;
-  }
+    display: none;
+  }  
 
   @media (max-width: 700px) {
     .call_btn{
       display: block;
     }
+   
   }
   @media (max-width: 992px) {
       nav{
@@ -160,12 +160,19 @@
         display: inline;
         font-size: 25px;
       }
-      .menuwrapper{
-        display: block;
+      .menuwrapper
+      {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 2px;
       }
       .chaistation_header{
         max-width: 200px; 
         }
+      .call_menu_wrapper{
+        display: flex;
+        justify-content: space-between;
+      }
   }
   @media (max-width: 1000px){
     nav{
@@ -175,6 +182,10 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+    }
+    .menuwrapper
+    {
+      display: block;
     }
     .menu_icon{
       display: inline;
