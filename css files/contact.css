@@ -1,29 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Nunito:wght@600;800&display=swap');
-.body_contact{
+
+.body_contact {
     font-family: 'Nunito', sans-serif;
     margin: 0;
     padding: 0;
-    background:#545454e2;
-  }
-.contactNdelivery{
+    background: #545454e2;
+}
+
+.contactNdelivery {
     background-color: #444444e2;
     padding: 4px;
     padding-bottom: 10px;
     border-radius: 8px;
     margin: 4px;
 }
-.header{
+
+.header {
     align-items: center;
 }
-.contact_wrapper{
+
+.contact_wrapper {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.phone{
+
+.phone {
     margin: 5px 5px 0px 5px;
     padding: 50px;
-    background-color:aliceblue;
+    background-color: aliceblue;
     font-size: 20px;
     display: flex;
     border-radius: 8px;
@@ -32,14 +37,17 @@
     color: #fed118;
     background-color: #181818;
 }
-a{
+
+a {
     text-decoration: none;
     color: inherit;
 }
-.phoneNicon{
+
+.phoneNicon {
     display: inline;
 }
-.copy_icon{
+
+.copy_icon {
     border: solid 2px #fed01860;
     padding: 5px;
     border-radius: 8px;
@@ -47,22 +55,26 @@ a{
     color: #fed118;
     margin-left: 10px;
 }
-.copy_icon:hover{
+
+.copy_icon:hover {
     color: #7f6913;
 }
-.icon{
+
+.icon {
     padding: 6px 15px 6px 15px;
     background-color: #5cdb5c81;
     border-radius: 8px;
     color: #fed118;
 }
-.the_number{
+
+.the_number {
     display: inline;
-    background-color:  #ffffff0d;
+    background-color: #ffffff0d;
     padding: 3px 10px 3px 10px;
     border-radius: 20px;
 }
-.free_delivry_wrapper{ 
+
+.free_delivry_wrapper {
     padding: 25px;
     border-radius: 8px;
     display: flex;
@@ -70,8 +82,9 @@ a{
     font-size: 20px;
     background-color: #181818;
     margin: 5px 5px 0px 5px;
- }
- .about_location{
+}
+
+.about_location {
     display: flex;
     justify-content: space-between;
     padding: 25px;
@@ -79,13 +92,15 @@ a{
     font-size: 20px;
     background-color: #181818;
     margin: 5px 5px 0px 5px;
- }
-.delivery_icon{ 
+}
+
+.delivery_icon {
     width: 10%;
     height: auto;
     object-fit: contain;
 }
-.free_delivery_para{
+
+.free_delivery_para {
     display: inline;
     color: #fed118;
     width: 55%;
@@ -94,7 +109,8 @@ a{
     padding: 10px 7px 0px 8px;
     height: fit-content;
 }
-.location_para{
+
+.location_para {
     display: inline;
     color: #fed118;
     background-color: #ffffff06;
@@ -104,7 +120,8 @@ a{
     min-width: 100%;
     font-size: 16px;
 }
-.location_btn{
+
+.location_btn {
     height: 50px;
     width: 100%;
     background-color: #fed018ad;
@@ -116,62 +133,77 @@ a{
     justify-content: center;
     align-items: center;
 }
-.location_icon{
+
+.location_icon {
     padding-left: 15px;
 }
-.phone_btn{
+
+.phone_btn {
     display: none;
 }
-.location_img{
+
+.location_img {
     width: 30%;
     object-fit: contain;
     display: block;
     border-radius: 10px;
     margin-right: 20px;
 }
-.para_btn_wrapper{
+
+.para_btn_wrapper {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
 @media (max-width:992px) {
-    .contact_wrapper{
+    .contact_wrapper {
         display: block;
     }
-    .phone_btn{
+
+    .phone_btn {
         display: block;
     }
-    .delivery_icon{ 
+
+    .delivery_icon {
         width: 35%;
     }
-    .free_delivry_wrapper{ 
+
+    .free_delivry_wrapper {
         font-size: 18px;
-     }
-     .phone{
+    }
+
+    .phone {
         padding: 35px 30px 35px 30px;
     }
 }
+
 @media (max-width:600px) {
-    .delivery_icon{ 
+    .delivery_icon {
         width: 35%;
     }
-    .free_delivry_wrapper{ 
+
+    .free_delivry_wrapper {
         font-size: 14px;
-     }
-     .location_img{
+    }
+
+    .location_img {
         width: 100%;
         margin-right: 0px;
         margin-bottom: 12px;
     }
-    .about_location{
-     display: block;
+
+    .about_location {
+        display: block;
     }
-    .location_para{
+
+    .location_para {
         display: block;
         width: 100%;
         margin-left: 0px;
     }
-    .location_btn{
+
+    .location_btn {
         margin: 0%;
     }
 }
