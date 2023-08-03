@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Nunito:wght@600;800&display=swap');
 .home_body{
-    background-color: #181818;
+    background-color: #131313;
     margin: 0;
     padding: 0;
     font-family: 'Nunito', sans-serif;
@@ -9,7 +9,7 @@
 .header_home{
     padding: 35px;
     color: #ffd258  ;
-    background-color: #181818;
+    background-color: #131313;
     margin: 0px;
 }
 .video_container{
@@ -31,7 +31,7 @@
     width: 705px;
     display: flex;
     justify-content: center;
-    background: linear-gradient(to left,  #181818, rgba(46, 46, 46, 0.078));
+    background: linear-gradient(to left,  #131313, rgba(46, 46, 46, 0.078));
 }
 
 .home_txt{
@@ -55,7 +55,7 @@
     text-decoration: none;
     display: block;
     margin-left: 65vw;
-    color: #181818;
+    color: #131313;
     z-index: 2;
     position: relative;
     top: 20vh;
@@ -116,7 +116,7 @@ button:focus {
         height: 100%;
         display: flex;
         justify-content: center;
-        background: linear-gradient(to top,  #181818, rgba(255, 255, 255, 0));
+        background: linear-gradient(to top,  #131313, rgba(255, 255, 255, 0));
     }
     .home_txt{
         top: 40%;

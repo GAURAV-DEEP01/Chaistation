@@ -37,7 +37,7 @@ button:focus {
 }
 
 .header {
-  background-color: #181818;
+  background-color: #131313;
   display: flex;
   color: #ffd258;
   padding: 13px 25px 13px 25px;
@@ -77,7 +77,7 @@ nav ul li {
   background-color: #ffd258;
   padding: 15px 30px 15px 30px;
   border-radius: 3px;
-  color: #181818;
+  color: #131313;
   text-decoration: none;
   font-weight: 800;
   margin: 15px;
@@ -92,7 +92,7 @@ nav ul li {
 }
 
 .dropdown_call {
-  background-color: #181818;
+  background-color: #131313;
 }
 
 .menu_icon {
@@ -117,7 +117,7 @@ a {
   flex-direction: column;
   justify-content: space-evenly;
   height: 400px;
-  background-color: #181818;
+  background-color: #131313;
   list-style-type: none;
   padding: 0px;
   margin: 0px;

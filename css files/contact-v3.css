@@ -35,7 +35,7 @@
     justify-content: space-between;
     align-items: center;
     color: #ffd258;
-    background-color: #181818;
+    background-color: #131313;
 }
 
 a {
@@ -80,7 +80,7 @@ a {
     display: flex;
     justify-content: space-between;
     font-size: 20px;
-    background-color: #181818;
+    background-color: #131313;
     margin: 5px 5px 0px 5px;
 }
 
@@ -90,7 +90,7 @@ a {
     padding: 25px;
     border-radius: 8px;
     font-size: 20px;
-    background-color: #181818;
+    background-color: #131313;
     margin: 5px 5px 0px 5px;
 }
 
