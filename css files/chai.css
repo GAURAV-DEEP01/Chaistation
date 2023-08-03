@@ -29,7 +29,7 @@ button:focus {
 
 .imagebox {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .menu_page {
@@ -39,7 +39,7 @@ button:focus {
 .header {
   background-color: #181818;
   display: flex;
-  color: #fed118;
+  color: #ffd258;
   padding: 13px 25px 13px 25px;
   align-items: center;
   justify-content: space-between;
@@ -74,7 +74,7 @@ nav ul li {
 }
 
 .navbar_option {
-  background-color: #fed118;
+  background-color: #ffd258;
   padding: 15px 30px 15px 30px;
   border-radius: 3px;
   color: #181818;
@@ -88,7 +88,7 @@ nav ul li {
 }
 
 .num_col {
-  color: #fed118;
+  color: #ffd258;
 }
 
 .dropdown_call {
@@ -142,13 +142,12 @@ h2 {
 
 #insta_icon,
 #map_icon {
-  color: #fed118;
+  color: #ffd258;
 }
 
 .menuwrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-top: 2px;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .navbar_ul {
@@ -162,7 +161,7 @@ h2 {
   border-radius: 8px;
   width: 55px;
   height: 35px;
-  color: #fed118c7;
+  color: #ffd258;
   background-color: #212121e6;
   border: solid 2px #7c7c7c99;
 }
@@ -197,7 +196,6 @@ h2 {
   .menuwrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 2px;
   }
 
   .chaistation_header {
