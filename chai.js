@@ -6,6 +6,9 @@ let header = document.querySelector("header")
 let copyBtns = document.querySelectorAll(".copy_icon")
 let phoneNum = document.querySelectorAll(".the_number")
 let stars = document.querySelectorAll(".stars i");
+let searchTxt = document.querySelector(".searchTxt")
+let searchbtn = document.querySelector(".searchbtn")
+
 let dropdownMenue_isopen = false;
 let dropdownCall_isopen = false;
 
@@ -21,6 +24,14 @@ menuIcon.addEventListener('click', () => {
    }
 })
 //call drop down
+searchbtn.addEventListener('click',()=>{
+   let filteredList = data.menu.filter(e=>{
+      let theItemsName = e.item.toLocaleLowerCase()
+      let searchToLower = searchTxt.value.toLocaleLowerCase()
+      return theItemsName.startsWith(searchToLower)
+   })
+   console.log(filteredList)
+})
 
 document.addEventListener('scroll', () => {
    dropdownMenu.style.display = "none";
