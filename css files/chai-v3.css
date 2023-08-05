@@ -160,10 +160,10 @@ h2 {
   margin: 0px 18px;
   border-radius: 8px;
   width: 55px;
-  height: 35px;
+  height: 34px;
   color: #ffd258;
-  background-color: #212121e6;
-  border: solid 2px #7c7c7c99;
+  background-color: #131313;
+  border: solid 2px #7c7c7c49;
 }
 
 .call_menu_wrapper {
@@ -175,14 +175,14 @@ h2 {
   width: 100%;
   position: relative;
   display: flex;
-  padding: 2px;
+  padding: 1px 2px;
 }
 
 .searchTerm {
   width: 100%;
   border: 3px solid #ffd258;
   border-right: none;
-  padding: 5px;
+  padding: 5px 15px;
   border-radius: 5px 0 0 5px;
   outline: none;
   color: #9DBFAF;
@@ -195,7 +195,7 @@ h2 {
 .searchButton {
   width: 80px;
   border: 1px solid #ffd258;
-  background: #212121e6;
+  background: #131313;
   text-align: center;
   color: #ffd258;
   border-radius: 0 5px 5px 0;
