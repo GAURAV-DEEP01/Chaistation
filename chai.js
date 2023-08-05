@@ -23,14 +23,17 @@ menuIcon.addEventListener('click', () => {
       dropdownMenue_isopen = true;
    }
 })
-//call drop down
+
 searchbtn.addEventListener('click',()=>{
+   let searchToLower = searchTxt.value.toLocaleLowerCase()
+
    let filteredList = data.menu.filter(e=>{
-      let theItemsName = e.item.toLocaleLowerCase()
-      let searchToLower = searchTxt.value.toLocaleLowerCase()
-      return theItemsName.startsWith(searchToLower)
+      let theItemsName = e.item.toLocaleLowerCase() 
+      
+      return theItemsName.includes(searchToLower)
    })
-   console.log(filteredList)
+   let tenEle = filteredList.slice(0,10)
+   console.log(tenEle)
 })
 
 document.addEventListener('scroll', () => {
