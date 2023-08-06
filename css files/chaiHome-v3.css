@@ -14,7 +14,7 @@
 }
 .video_container{
     max-width: 100%;
-    overflow: hidden;
+    overflow: hidden    ;
 }
 .background_home {
     position: relative;
@@ -41,7 +41,7 @@
     color: rgb(215, 215, 215);
     text-align: center;
     top: 38%;
-    margin-left: 69vw;
+    margin-left: 62vw;
     z-index: 1;
 }
 .View_menu_btn{
@@ -54,7 +54,7 @@
     background: linear-gradient(to bottom, #fff9e7, rgba(233, 233, 233, 0.858));
     text-decoration: none;
     display: block;
-    margin-left: 65vw;
+    margin-left: 58vw;
     color: #131313;
     z-index: 2;
     position: relative;
@@ -70,6 +70,7 @@
 .home_logo{
     width: 50%;
     max-width: 50%;
+    margin-left: 40vw;
     border-radius: 15px;
 }
 .home_logo_div{
@@ -84,7 +85,7 @@
 button:focus {
     outline: none;
   }
-  .the_video{
+  .poster{
     height: 85vh;
 }
 @media (max-width:992px) {
@@ -130,14 +131,16 @@ button:focus {
     .View_menu_btn{
         width: 80%;
     }
-    .the_video{
-        width: 120%;
-        height: 100%;
+    .poster{
+        width: 100%;
+        height: auto;
+        object-fit: contain;
     }
     .home_logo_div{
         top: 20%;
     }
     .home_logo{
         border-radius: 5px;
+        margin-left: 0vw;
     }
 }
