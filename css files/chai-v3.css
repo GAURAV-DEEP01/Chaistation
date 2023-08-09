@@ -6,7 +6,6 @@
   padding: 0;
   background: #444444e2;
 }
-
 html {
   scroll-behavior: smooth;
 }
@@ -170,7 +169,6 @@ h2 {
   display: none;
 }
 
-
 .search {
   width: 100%;
   position: relative;
@@ -179,17 +177,18 @@ h2 {
 }
 
 .searchTerm {
+  background-color: #131313;
   width: 100%;
-  border: 3px solid #ffd258;
+  border: 3px solid #ffd25893;
   border-right: none;
   padding: 5px 15px;
   border-radius: 5px 0 0 5px;
   outline: none;
-  color: #9DBFAF;
+  color: #e3e58aa3;
 }
 
 .searchTerm:focus {
-  color: #000;
+  color: #ffffff;
 }
 
 .searchButton {
