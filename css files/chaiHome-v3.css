@@ -12,6 +12,9 @@
     background-color:#1c1c1c;
     margin: 0px;
 }
+.navbar_ul_reactive{
+    background-color: #1c1c1c;
+}
 .video_container{
     max-width: 100%;
     overflow: hidden    ;
@@ -117,7 +120,7 @@ button:focus {
         height: 100%;
         display: flex;
         justify-content: center;
-        background: linear-gradient(to top,  #131313, rgba(255, 255, 255, 0));
+        background: linear-gradient(to top, #1c1c1ce0, rgba(46, 46, 46, 0.078));
     }
     .home_txt{
         top: 40%;

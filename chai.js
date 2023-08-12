@@ -5,10 +5,10 @@ let dropdownCall = document.querySelector(".dropdown_call")
 let callBtn = document.querySelector(".call_btn")
 let header = document.querySelector("header")
 let copyBtns = document.querySelectorAll(".copy_icon")
-let phoneNum = document.querySelectorAll(".the_number")
-let stars = document.querySelectorAll(".stars i");
+// let theNumber = document.querySelectorAll(".the_number")
 let searchTxt = document.querySelector(".searchTxt")
-let searchbtn = document.querySelector(".searchbtn")
+let search = document.querySelector(".search")
+let filterBtn = document.querySelector(".filterBtn")
 let searchBarWrap = document.querySelector(".wrap")
 
 let dropdownMenue_isopen = false;
@@ -25,6 +25,8 @@ menuIcon.addEventListener('click', () => {
       dropdownMenue_isopen = true;
    }
 })
+
+// search dropdown menu
 let searchUlElement = document.createElement('ul')
 searchBarWrap.appendChild(searchUlElement)
 searchUlElement.style.display = "none"
@@ -34,33 +36,39 @@ searchUlElement.setAttribute('class','list-group')
 
 menuwrapper.addEventListener('click',()=>{
    searchUlElement.style.display = "none"
+   dropdownMenu.style.display = "none";
+   dropdownMenue_isopen = false;
 })
 
-let tenEle = [];
-
+//search feature
+// search.removeAttribute('class','onSearchFocus')
+let showTenElement = [];
 searchTxt.addEventListener('input', () => {
    searchTxt.value.trim()
-   UpdateDeleteSearch(tenEle)
+   UpdateDeleteSearch(showTenElement)
    if (searchTxt.value != "") {
       let searchToLower = searchTxt.value.toLocaleLowerCase()
       let filteredList = data.menu.filter(e => {
          let theItemsName = e.item.toLocaleLowerCase()
          return theItemsName.includes(searchToLower)
       })
-      tenEle = filteredList.slice(0, 10)
-      displaySearchResult(tenEle)
+      showTenElement = filteredList.slice(0, 10)
+      displaySearchResult(showTenElement)
    }
 })
+// filterBtn.addEventListener('click',()=>{
 
-function UpdateDeleteSearch(tenEle) {
-   if (tenEle.length != 0)
+// })
+
+function UpdateDeleteSearch(showTenElement) {
+   if (showTenElement.length != 0)
       searchUlElement.textContent = ''
 }
 
-function displaySearchResult(tenEle) {
-   // UpdateDeleteSearch(tenEle)
+function displaySearchResult(showTenElement) {
+   // UpdateDeleteSearch(showTenElement)
    searchUlElement.style.display = "block"
-   tenEle.forEach((e) => {
+   showTenElement.forEach((e) => {
       let listElement = document.createElement('li')
       listElement.setAttribute('class','list-group-item bg-dark text-light')
       listElement.style.width="97vw"
@@ -69,6 +77,7 @@ function displaySearchResult(tenEle) {
    })
 }
 
+//makes the drpodown disapeare menu when user scrolls 
 document.addEventListener('scroll', () => {
    dropdownMenu.style.display = "none";
    dropdownMenue_isopen = false;
@@ -90,6 +99,5 @@ copyBtns.forEach((copyBtn) => {
       setTimeout(() => {
          theNumber.style.backgroundColor = "#fed0180f"
       }, 300);
-
    })
 });
