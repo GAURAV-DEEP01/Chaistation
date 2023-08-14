@@ -188,8 +188,8 @@ h2 {
 }
 
 .searchTerm:focus {
-  color: #ffffff;
-  /* border: 3px solid #eec248cc; */
+  border: 3px solid #ffd258ab;
+  border-right: none;
 }
 
 .filterBtn {
