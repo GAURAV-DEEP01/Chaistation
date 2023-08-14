@@ -120,7 +120,7 @@ button:focus {
         background: linear-gradient(to top,  #131313, rgba(255, 255, 255, 0));
     }
     .home_txt{
-        top: 40%;
+        top: 70%;
     }
     .header_home{
         padding: 18px;
@@ -137,6 +137,7 @@ button:focus {
         object-fit: contain;
     }
     .home_logo_div{
+        display: none;
         top: 20%;
     }
     .home_logo{
