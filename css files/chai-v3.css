@@ -6,6 +6,10 @@
   padding: 0;
   background: #444444e2;
 }
+:root{
+  --theme-color: #131313;
+  --themeSub-color: #ffd258;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -36,9 +40,9 @@ button:focus {
 }
 
 .header {
-  background-color: #131313;
+  background-color: var(--theme-color);
   display: flex;
-  color: #ffd258;
+  color: var(--themeSub-color);
   padding: 13px 25px 13px 25px;
   align-items: center;
   justify-content: space-between;
@@ -73,10 +77,10 @@ nav ul li {
 }
 
 .navbar_option {
-  background-color: #ffd258;
+  background-color: var(--themeSub-color);
   padding: 15px 30px 15px 30px;
   border-radius: 3px;
-  color: #131313;
+  color: var(--theme-color);
   text-decoration: none;
   font-weight: 800;
   margin: 15px;
@@ -91,7 +95,7 @@ nav ul li {
 }
 
 .dropdown_call {
-  background-color: #131313;
+  background-color: var(--theme-color);
 }
 
 .menu_icon {
@@ -116,7 +120,7 @@ a {
   flex-direction: column;
   justify-content: space-evenly;
   height: 400px;
-  background-color: #131313;
+  background-color: var(--theme-color);
   list-style-type: none;
   padding: 0px;
   margin: 0px;
@@ -141,7 +145,7 @@ h2 {
 
 #insta_icon,
 #map_icon {
-  color: #ffd258;
+  color: var(--themeSub-color);
 }
 
 .menuwrapper {
@@ -163,8 +167,8 @@ h2 {
   border-radius: 8px;
   width: 55px;
   height: 34px;
-  color: #ffd258;
-  background-color: #131313;
+  color: var(--themeSub-color);
+  background-color: var(--theme-color);
   border: solid 2px #7c7c7c49;
 }
 
@@ -180,7 +184,7 @@ h2 {
 }
 
 .searchTerm {
-  background-color: #131313;
+  background-color: var(--theme-color);
   width: 100%;
   border: 3px solid #ffd25893;
   border-right: none;
@@ -193,14 +197,15 @@ h2 {
 .searchTerm:focus {
   border: 3px solid #ffd258ab;
   border-right: none;
+  color: white;
 }
 
 .filterBtn {
   width: 80px;
   border: 3px solid #ffd25893;
-  background: #131313;
+  background: var(--theme-color);
   text-align: center;
-  color: #ffd258;
+  color: var(--themeSub-color);
   border-radius: 0 5px 5px 0;
   cursor: pointer;
   font-size: 20px;
@@ -251,7 +256,7 @@ h2 {
     justify-content: center;
     align-items: center;
     text-decoration:none ;
-    color: #131313;
+    color: var(--theme-color);
     text-align: center;
     border-radius: 5px;
     font-weight: 800;
