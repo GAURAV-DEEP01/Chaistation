@@ -153,13 +153,14 @@ h2 {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-#scrollToTopBtn{
- display: none;
-}
 .navbar_ul {
   list-style-type: none;
   padding: 0;
 }
+
+/* #scrollToTopBtn{
+ display: none;
+} */
 
 .call_btn {
   display: none;
@@ -246,7 +247,7 @@ h2 {
   .call_menu_wrapper {
     display: flex;
     justify-content: space-between;
-  }
+  /* }
   #scrollToTopBtn{
     display: block;
     width: 100%;
@@ -264,7 +265,7 @@ h2 {
    }
    .scrolltop{
     margin: 2px 2px 4px 2px;
-   }
+   } */
 }
 
 @media (max-width: 1000px) {
