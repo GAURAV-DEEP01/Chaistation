@@ -1,24 +1,28 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Nunito:wght@600;800&display=swap');
-.home_body{
+
+.home_body {
     background-color: #1c1c1c;
     margin: 0;
     padding: 0;
     font-family: 'Nunito', sans-serif;
 }
-.header_home{
+
+.header_home {
     padding: 35px;
-    color: #ffd258  ;
-    background-color:#1c1c1c;
+    color: #ffd258;
+    background-color: #1c1c1c;
     margin: 0px;
 }
-.navbar_ul_reactive{
+
+.navbar_ul_reactive {
     background-color: #1c1c1c;
 }
-.video_container{
+
+.video_container {
     max-width: 100%;
-    overflow: hidden    ;
+    overflow: hidden;
 }
+
 .background_home {
     position: relative;
     margin: 0px;
@@ -34,10 +38,10 @@
     width: 705px;
     display: flex;
     justify-content: center;
-    background: linear-gradient(to left,  #1c1c1c, rgba(46, 46, 46, 0.078));
+    background: linear-gradient(to left, #1c1c1c, rgba(46, 46, 46, 0.078));
 }
 
-.home_txt{
+.home_txt {
     position: absolute;
     font-family: "Cedarville Cursive", cursive;
     font-size: 25px;
@@ -47,7 +51,8 @@
     margin-left: 62vw;
     z-index: 1;
 }
-.View_menu_btn{
+
+.View_menu_btn {
     padding: 20px;
     width: 20%;
     border-radius: 40px;
@@ -64,19 +69,21 @@
     top: 20vh;
 }
 
-.View_menu{
+.View_menu {
     text-align: center;
     position: absolute;
     width: 100%;
     bottom: 50%;
 }
-.home_logo{
+
+.home_logo {
     width: 50%;
     max-width: 50%;
     margin-left: 40vw;
     border-radius: 15px;
 }
-.home_logo_div{
+
+.home_logo_div {
     display: flex;
     justify-content: center;
     top: 5%;
@@ -85,23 +92,28 @@
     width: 100%;
     position: absolute;
 }
+
 button:focus {
     outline: none;
-  }
-  .poster{
+}
+
+.poster {
     height: 85vh;
 }
+
 @media (max-width:992px) {
-    .View_menu_btn{
+    .View_menu_btn {
         margin: auto;
         top: 50px;
     }
-    .home_txt{
-  
+
+    .home_txt {
+
         top: 30%;
         margin: auto;
     }
-    .home_txt{
+
+    .home_txt {
         position: absolute;
         font-family: 'Cedarville Cursive', cursive;
         font-size: 25px;
@@ -111,6 +123,7 @@ button:focus {
         top: 30%;
         z-index: 1;
     }
+
     .background_home::after {
         content: "";
         position: absolute;
@@ -122,28 +135,35 @@ button:focus {
         justify-content: center;
         background: linear-gradient(to top, #1c1c1ce0, rgba(46, 46, 46, 0.078));
     }
-    .home_txt{
+
+    .home_txt {
         top: 70%;
     }
-    .header_home{
+
+    .header_home {
         padding: 18px;
     }
-    .View_menu{
+
+    .View_menu {
         bottom: 30px;
     }
-    .View_menu_btn{
+
+    .View_menu_btn {
         width: 80%;
     }
-    .poster{
+
+    .poster {
         width: 100%;
         height: auto;
         object-fit: contain;
     }
-    .home_logo_div{
+
+    .home_logo_div {
         display: none;
         top: 20%;
     }
-    .home_logo{
+
+    .home_logo {
         border-radius: 5px;
         margin-left: 0vw;
     }

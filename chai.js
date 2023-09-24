@@ -32,9 +32,9 @@ searchBarWrap.appendChild(searchUlElement)
 searchUlElement.style.display = "none"
 searchUlElement.style.position = "absolute"
 searchUlElement.style.padding = "0px 5px"
-searchUlElement.setAttribute('class','list-group')
+searchUlElement.setAttribute('class', 'list-group')
 
-menuwrapper.addEventListener('click',()=>{
+menuwrapper.addEventListener('click', () => {
    searchUlElement.style.display = "none"
    dropdownMenu.style.display = "none";
    dropdownMenue_isopen = false;
@@ -56,9 +56,6 @@ searchTxt.addEventListener('input', () => {
       displaySearchResult(showTenElement)
    }
 })
-// filterBtn.addEventListener('click',()=>{
-
-// })
 
 function UpdateDeleteSearch(showTenElement) {
    if (showTenElement.length != 0)
@@ -70,8 +67,8 @@ function displaySearchResult(showTenElement) {
    searchUlElement.style.display = "block"
    showTenElement.forEach((e) => {
       let listElement = document.createElement('li')
-      listElement.setAttribute('class','list-group-item bg-black text-light')
-      listElement.style.width="97vw"
+      listElement.setAttribute('class', 'list-group-item bg-black text-light')
+      listElement.style.width = "97vw"
       listElement.innerText = `${e.item}\u00A0\u00A0\u00A0\u00A0:\u00A0\u00A0\u00A0₹${e.price}`
       searchUlElement.appendChild(listElement)
    })
