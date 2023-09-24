@@ -6,10 +6,12 @@
   padding: 0;
   background: #444444e2;
 }
-:root{
+
+:root {
   --theme-color: #131313;
   --themeSub-color: #ffd258;
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -158,9 +160,6 @@ h2 {
   padding: 0;
 }
 
-#scrollToTopBtn{
- display: none;
-}
 
 .call_btn {
   display: none;
@@ -192,7 +191,7 @@ h2 {
   padding: 5px 15px;
   border-radius: 5px 0 0 5px;
   outline: none;
-  color:  #f9c84394;
+  color: #f9c84394;
 }
 
 .searchTerm:focus {
@@ -256,16 +255,17 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration:none ;
+    text-decoration: none;
     color: var(--theme-color);
     text-align: center;
     border-radius: 5px;
     font-weight: 800;
     border: 3px solid #131313ab;
-   }
-   .scrolltop{
+  }
+
+  .scrolltop {
     margin: 2px 2px 4px 2px;
-   }
+   } 
 }
 
 @media (max-width: 1000px) {
