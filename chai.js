@@ -67,7 +67,7 @@ function displaySearchResult(showTenElement) {
    searchUlElement.style.display = "block"
    showTenElement.forEach((e) => {
       let listElement = document.createElement('li')
-      listElement.setAttribute('class', 'list-group-item bg-black text-light')
+      listElement.setAttribute('class', 'list-group-item bg-dark text-light')
       listElement.style.width = "97vw"
       listElement.innerText = `${e.item}\u00A0\u00A0\u00A0\u00A0:\u00A0\u00A0\u00A0₹${e.price}`
       searchUlElement.appendChild(listElement)
