@@ -4,7 +4,7 @@
   font-family: 'Nunito', sans-serif;
   margin: 0;
   padding: 0;
-  background: #444444e2;
+  background: var(--theme-color);
 }
 
 :root {
@@ -21,7 +21,7 @@ button:focus {
 }
 
 .logo {
-  width: 100%;
+  width: 70%;
 }
 
 .home_logo {
@@ -191,7 +191,8 @@ h2 {
   padding: 5px 15px;
   border-radius: 5px 0 0 5px;
   outline: none;
-  color: #f9c84394;
+  color: #f9c84340;
+  margin-left: 3px;
 }
 
 .searchTerm:focus {
@@ -203,12 +204,14 @@ h2 {
 .filterBtn {
   width: 80px;
   border: 3px solid #ffd25893;
+  border-left: none;
   background: var(--theme-color);
   text-align: center;
   color: var(--themeSub-color);
   border-radius: 0 5px 5px 0;
   cursor: pointer;
   font-size: 20px;
+  margin-right: 3px;
 }
 #scrollToTopBtn{
     display: none;
@@ -230,6 +233,9 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+  .logo {
+    width: 100%;
   }
 
   .menu_icon {
@@ -263,7 +269,7 @@ h2 {
     text-align: center;
     border-radius: 5px;
     font-weight: 800;
-    border: 3px solid #131313ab;
+    border: 3px solid #ffe30bc0;
   }
 
   .scrolltop {
@@ -281,6 +287,7 @@ h2 {
     justify-content: space-between;
     align-items: center;
   }
+  
 
   .menuwrapper {
     display: block;

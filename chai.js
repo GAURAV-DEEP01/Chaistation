@@ -6,7 +6,6 @@ let callBtn = document.querySelector(".call_btn")
 let header = document.querySelector("header")
 let copyBtns = document.querySelectorAll(".copy_icon")
 // let theNumber = document.querySelectorAll(".the_number")
-let searchTxt = document.querySelector(".searchTxt")
 let search = document.querySelector(".search")
 let filterBtn = document.querySelector(".filterBtn")
 let searchBarWrap = document.querySelector(".wrap")
@@ -14,7 +13,7 @@ let searchBarWrap = document.querySelector(".wrap")
 let dropdownMenue_isopen = false;
 let dropdownCall_isopen = false;
 
-//dropdown menu
+//dropdown menu button
 menuIcon.addEventListener('click', () => {
    if (dropdownMenue_isopen) {
       dropdownMenu.style.display = "none";
@@ -28,13 +27,13 @@ menuIcon.addEventListener('click', () => {
 
 // search dropdown menu
 let searchUlElement = document.createElement('ul')
-searchBarWrap.appendChild(searchUlElement)
 searchUlElement.style.display = "none"
 searchUlElement.style.position = "absolute"
 searchUlElement.style.padding = "0px 5px"
 searchUlElement.setAttribute('class', 'list-group')
+searchBarWrap?.appendChild(searchUlElement)
 
-menuwrapper.addEventListener('click', () => {
+menuwrapper?.addEventListener('click', () => {
    searchUlElement.style.display = "none"
    dropdownMenu.style.display = "none";
    dropdownMenue_isopen = false;
@@ -42,7 +41,9 @@ menuwrapper.addEventListener('click', () => {
 
 //search feature
 // search.removeAttribute('class','onSearchFocus')
+const searchTxt = document.querySelector(".searchTxt")
 let showTenElement = [];
+if(searchTxt!=null)
 searchTxt.addEventListener('input', () => {
    searchTxt.value.trim()
    UpdateDeleteSearch(showTenElement)
