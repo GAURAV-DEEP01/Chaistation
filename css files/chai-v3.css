@@ -81,15 +81,19 @@ nav ul li {
 .navbar_option {
   background-color: var(--themeSub-color);
   padding: 15px 30px 15px 30px;
-  border-radius: 3px;
+  border-radius: 12px;
   color: var(--theme-color);
   text-decoration: none;
   font-weight: 800;
   margin: 15px;
+  -webkit-box-shadow: 0px 0px 56px -22px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 56px -22px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 56px -22px rgba(0,0,0,0.75);
 }
 
 .navbar_option:hover {
-  background-color: #b89d32;
+  background-color:rgb(49, 49, 49);
+  color: rgba(255, 255, 255, 0.513);
 }
 
 .num_col {
@@ -126,6 +130,7 @@ a {
   list-style-type: none;
   padding: 0px;
   margin: 0px;
+  
 }
 
 .navbar_ul_reactive a {
@@ -250,6 +255,9 @@ h2 {
 
   .chaistation_header {
     max-width: 200px;
+  }
+  .navbar_option {
+    border-radius: 3px;
   }
 
   .call_menu_wrapper {
