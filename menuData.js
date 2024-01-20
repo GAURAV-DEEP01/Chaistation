@@ -87,16 +87,7 @@ const data = {
       {
         "item": "TANDOORI MALT",
         "price": 40
-      },
-      {
-        "item": "mojito",
-        "price": 25
-      },
-      {
-        "item": "lassi",
-        "price": 25
-      },
-      {
+      },{
         "item": "ORANGE JUICE",
         "price": 70
       },
